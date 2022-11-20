@@ -32,12 +32,10 @@ function divide(a,b){
 }
 
 function increment(a){
-    let n = a + 1;
-    return(n);
+    return(++a);
 }
 function decrement(a){
-    let n = a - 1;
-    return(n);
+    return(--a);
 }
 function makeInt(a){
     let m = a.toString();
@@ -51,9 +49,9 @@ function NaN(m){
     let NaN = m >= 'sldkjflksjf';
     return(NaN);
 }
-function preserveDecimal(m){
-    let p = m / 2.222 * 2.222;
-    return(p);
+function preserveDecimal(n){
+    (parseInt(n,10))
+    return(parseInt(n,10));
 }
 function NaN(p){
     let NaN2 = p >= sldkjflksjf;
