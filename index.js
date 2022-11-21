@@ -37,25 +37,14 @@ function increment(a){
 function decrement(a){
     return(--a);
 }
-function makeInt(a){
-    let m = a.toString();
-    return(m);
-}
-function log10(m){
-    let base = m;
-    console.log(math.log10(base));
-}
-function NaN(m){
-    let NaN = m >= 'sldkjflksjf';
-    return(NaN);
-}
-function preserveDecimal(n){
+function makeInt(n){
     (parseInt(n,10))
     return(parseInt(n,10));
 }
-function NaN(p){
-    let NaN2 = p >= sldkjflksjf;
-    return(NaN2);
+
+function preserveDecimal(n){
+    (parseFloat(n,10))
+    return(parseFloat(n,10));
 }
 
 
